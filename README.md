@@ -10,6 +10,9 @@ This is usefull to configure a development environment for a project to point to
 
 # Run it
 Clone the repository
+```
+git clone git@github.com:rodrigodiez/wiremock-poc.git
+```
 
 Install dependencies
 ```
