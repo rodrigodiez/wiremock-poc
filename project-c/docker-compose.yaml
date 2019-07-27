@@ -1,0 +1,11 @@
+version: "3"
+services:
+  project-c:
+    build: .
+    command: "yarn start:dev"
+    volumes:
+      - ./src:/usr/src/app/src
+networks:
+  default:
+    external:
+      name: wiremock-poc-network
